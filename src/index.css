@@ -1,7 +1,5 @@
 * {
   font-family: monospace;
-  margin: 0px;
-  padding: 0px;
 }
 
 button {
@@ -21,8 +19,9 @@ button:hover {
   background-color: #21232a;
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: auto;
   justify-content: center;
+  padding: 30px 0px;
   text-align: center;
   width: 100%;
 }
@@ -50,9 +49,8 @@ p {
 
 h1 {
   color: #edfcf8;
-  font-size: 50px;
-  margin: 20px;
-  padding: 20px;
+  font-size: 40px;
+  margin: 10px
 }
 
 textarea {
@@ -63,9 +61,6 @@ textarea {
   width: 50vw;
 }
 
-.description {
-  margin: 20px;
-}
 
 @media (max-width: 600px) {
   .buttons-container {
