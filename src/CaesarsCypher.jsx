@@ -28,15 +28,25 @@ export const CaesarsCypher = () => {
 
   return (
     <div className="container">
-      <h1>Caesar's Cypher</h1>
+      <div className="description">
+    <h1>Caesar's Cypher</h1>
+        <p>
+          Just write the message you want to encrypt in the upper textfield and
+          and the encrypted message will be shown in the lower textfield. Use +
+          and - buttons to set the cypher key and "Swap" button to change
+          between encrypt and decrypt.
+        </p>
+      </div>
       <div className="cypher-container">
         <textarea value={input} onChange={handleInputChange} />
-        <button onClick={incrementKeyHandler}>+</button>
-        <h3>Cypher Key: {cypherKey}</h3>
-        <button onClick={decrementKeyHandler}>-</button>
-        <textarea value={encryptedMessage}></textarea>
+        <div className="buttons-container">
+          <button onClick={incrementKeyHandler}>+</button>
+          <h3>Key: {cypherKey}</h3>
+          <button onClick={decrementKeyHandler}>-</button>
+          <button onClick={swapHandler}>Swap</button>
+        </div>
+        <textarea value={encryptedMessage} />
       </div>
-      <button onClick={swapHandler}>Swap</button>
     </div>
   );
 };

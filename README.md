@@ -8,7 +8,7 @@ It's one of my very first react projects. Hope you like it.
 
 
 ## How to use:
-Just write the message you want to encrypt in the left textfield and you will get the encrypted message in the right textfield. Use + and - buttons to set the cypher key and "Swap" button to change between encrypt and decrypt.
+Just write the message you want to encrypt in the upper textfield and you will get the encrypted message in the lower textfield. Use + and - buttons to set the cypher key and "Swap" button to change between encrypt and decrypt.
 
 
 
