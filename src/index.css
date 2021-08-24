@@ -53,6 +53,7 @@ h1 {
 }
 
 textarea {
+  background-color: #edfcf8;;
   border-radius: 10px;
   color: #21232a;
   font-size: 30px;
@@ -67,6 +68,7 @@ textarea {
 
   h1 {
     font-size: 25px;
+    color: #edfcf8;
   }
   button {
     font-size: 20px;
@@ -75,5 +77,15 @@ textarea {
   }
   p {
     font-size: 15px;
+    color: #edfcf8;
+  }
+
+  textarea {
+    background-color: #edfcf8;;
+    border-radius: 10px;
+    color: #21232a;
+    font-size: 15px;
+    height: 15vh;
+    width: 50vw;
   }
 }
