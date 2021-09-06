@@ -1,5 +1,6 @@
 * {
   font-family: monospace;
+  margin: 0px;
 }
 
 button {
@@ -20,11 +21,11 @@ button:hover {
   background-color: #21232a;
   display: flex;
   flex-direction: column;
-  height: auto;
   justify-content: center;
-  padding: 30px 0px;
+  /* padding: 0px 10px; */
   text-align: center;
   width: 100%;
+  min-height: 100vh;;
 }
 
 .cypher-container {
@@ -44,6 +45,7 @@ button:hover {
 p {
   color: #edfcf8;
   font-size: 20px;
+  padding: 20px;
 }
 
 h1 {
@@ -60,6 +62,8 @@ textarea {
   height: 20vh;
   width: 50vw;
 }
+
+
 
 @media (max-width: 600px) {
   .buttons-container {
